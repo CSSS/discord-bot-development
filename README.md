@@ -5,12 +5,12 @@ Terminology:
 
 In both cases, the former is the more commonplace term and the later is the developer term for it.
 
-I will generally use "DiscordBot" and "Discord Guild" in my documentation.
+I will generally use "bot" and "guild" in my documentation.
 
 
-# Creating a New Discord Application
+# Creating a new bot
 
-When creating a new Discord Application, you need to go to the [Discord Applications](https://discord.com/developers/applications) page, and click on `New Application` on the top right
+When creating a new bot, you need to go to the [Discord Applications](https://discord.com/developers/applications) page, and click on `New Application` on the top right
 
 ![Add New Application](add_new_application.png)
 
@@ -18,12 +18,14 @@ When creating a new Discord Application, you need to go to the [Discord Applicat
 
 You will need a guild where you can interact with the bot.
 
-You can go through the steps of creating a personal guild using the indicated button here
-![Create new guild](create_discord_guild.png). You can really select anything you want for the prompted questions after clicking that button.
+You can go through the steps of creating a personal guild using the indicated button here.  
+You can really select anything you want for the prompted questions after clicking that button.
+![Create new guild](create_discord_guild.png)
 
-# Giving a Discord Application access to a Guild
 
-In order to actually interact with a Discord Application, you need to invite it to the guild where you will interact with it. To do this, you need to generate an invite link and go to that link within a browser where you are logged in as the admin of the target Discord Guild.
+# Giving a bot access to a guild
+
+In order to actually interact with a bot, you need to invite it to the guild where you will interact with it. To do this, you need to generate an invite link and go to that link within a browser where you are logged in as the admin of the target Discord Guild.
 
 `https://discordapp.com/oauth2/authorize?&client_id=<YOUR_CLIENT_ID_HERE>&scope=bot&permissions=<PERMISSION>`
 
